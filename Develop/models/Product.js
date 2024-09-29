@@ -14,10 +14,10 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true, // THE VALUE OF ID WILL INCREMENT WITH EVERY NEW ENTRY
     },
     product_name: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING, // TELLS SEQUELIZE THAT product_name IS A STRING
       allowNull: false,
     },
     price: {
@@ -39,7 +39,7 @@ Product.init(
   {
     sequelize,
     timestamps: false,
-    freezeTableName: true,
+    freezeTableName: true, // PREVENTS SEQUELIZE FROM REPLACING TABLE NAME
     underscored: true,
     modelName: "product",
   }

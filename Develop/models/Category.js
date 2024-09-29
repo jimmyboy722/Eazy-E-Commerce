@@ -14,10 +14,10 @@ Category.init(
       type: DataTypes.INTEGER,
       allowNull: false, // PREVENTS NULL VALUES
       primaryKey: true, // TELLS SEQUELIZE THAT THIS IS THE PRIMARY KEY
-      autoIncrement: true, // THE VALUE OF ID WILL INCREMENT WITH EVERY NEW ENTRY
+      autoIncrement: true,
     },
     category_name: {
-      type: DataTypes.STRING, // TELLS SEQUELIZE THAT category_name IS A STRING
+      type: DataTypes.STRING,
       allowNull: false,
     },
   },
@@ -25,7 +25,6 @@ Category.init(
     // SPECIFYING THE INSTANCE OF SEQUELIZE TO USE
     sequelize,
     timestamps: false, // TELLS SEQUELIZE TO NOT ADD TIMESTAMP COLUMNS
-    // PREVENTS SEQUELIZE FROM REPLACING TABLE NAME
     freezeTableName: true,
     underscored: true, // CONVERTS camelCase TO snake_case
     modelName: "category",
