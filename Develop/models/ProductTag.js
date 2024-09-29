@@ -1,3 +1,4 @@
+//  THIS MODEL DEFINES MANY TO MANY RELATIONSHIP BETWEEN PRODUCT AND TAG BY USING FOREIGN KEYS
 const { Model, DataTypes } = require("sequelize");
 
 const sequelize = require("../config/connection");
@@ -24,7 +25,7 @@ ProductTag.init(
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "tag",
+        model: "tag", // SHOWS LINK TO THE TAG MODEL/TABLE
         key: "id", // ALSO SHOWS LINK TO THE ID COLUMN IN THE TAG TABLE
       },
     },
