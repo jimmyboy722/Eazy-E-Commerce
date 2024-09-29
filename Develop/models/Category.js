@@ -17,17 +17,17 @@ Category.init(
       autoIncrement: true, // THE VALUE OF ID WILL INCREMENT WITH EVERY NEW ENTRY
     },
     category_name: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING, // TELLS SEQUELIZE THAT category_name IS A STRING
       allowNull: false,
     },
   },
   {
     // SPECIFYING THE INSTANCE OF SEQUELIZE TO USE
     sequelize,
-    timestamps: false,
+    timestamps: false, // TELLS SEQUELIZE TO NOT ADD TIMESTAMP COLUMNS
     // PREVENTS SEQUELIZE FROM REPLACING TABLE NAME
     freezeTableName: true,
-    underscored: true,
+    underscored: true, // CONVERTS camelCase TO snake_case
     modelName: "category",
   }
 );
