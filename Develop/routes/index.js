@@ -1,10 +1,13 @@
+// IMPORTING THE ROUTER CLASS AND THE ROUTE MODULES
 const router = require('express').Router();
-const apiRoutes = require('./api');
+const categoryRoutes = require('./category-routes');
+const productRoutes = require('./product-routes');
+const tagRoutes = require('./tag-routes');
 
-router.use('/api', apiRoutes);
+// MOUNTING THE ROUTES TO THE CORRESPONDING PATHS. I.E. ANY REQUESTS TO /CATEGORIES WILL BE HANDLED BY THE CATEGORY ROUTE
+router.use('/categories', categoryRoutes)
+router.use('/products' productRoutes)
+router.use('/tags', tagRoutes);
 
-router.use((req, res) => {
-  res.send("<h1>Wrong Route!</h1>")
-});
-
+// EXPORTING THE ROUTER
 module.exports = router;
