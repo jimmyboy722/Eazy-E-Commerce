@@ -1,7 +1,7 @@
-//IMPORTING SEQUELIZE
-const Sequelize = require("sequelize");
 // CONNECTING TO ENVIRONMENT VARIABLES
 require("dotenv").config();
+//IMPORTING SEQUELIZE
+const Sequelize = require("sequelize");
 
 // USING THOSE ENVIRONMENT VARIABLES TO CONNECT TO DATABASE
 const sequelize = process.env.DB_URL
