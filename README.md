@@ -7,6 +7,7 @@
 - [License](#License)
 - [Documentation](#Documentation)
 - [In Summary](#In-Summary)
+- [link](#link)
 
 ---
 ## <ins>What is e-commerce and what does ours offer?</ins>
@@ -47,7 +48,12 @@ The following are some ways in which you can participate in this project:
 ## <ins>Documentation</ins>
 The following resources will help you as they helped me understand and build a quality server-side postgres application:
 - [Blog Rocket's blog entitled "CRUD REST API with Node.js, Express, and PostgreSQL"](https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/)
-- [Medium's article entitled "Integrating SQL Databases into Node.js Applications: A Comprehensive Guide"](https://dvmhn07.medium.com/integrating-sql-databases-into-node-js-applications-a-comprehensive-guide-c6b0c0a84f91) 
+- [Medium's article entitled "Integrating SQL Databases into Node.js Applications: A Comprehensive Guide"](https://dvmhn07.medium.com/integrating-sql-databases-into-node-js-applications-a-comprehensive-guide-c6b0c0a84f91)
+
+---
+## <ins>Link</ins>
+- Here is the [link](https://bootcampspot.instructuremedia.com/embed/5a0df8f6-d031-4794-ba46-75538abf7fb5) to my video walkthrough demonstrating the usage of the app and database management
+  along with testing using Postman.
 
 ---
 ## <ins>In-Summary</ins>
