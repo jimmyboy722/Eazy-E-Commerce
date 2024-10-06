@@ -27,11 +27,11 @@ In order to create this server-side e-commerce app, I had to download the follow
 ---
 ## <ins>Usage</ins>
  - To use this app, follow the following steps.
-    1. Open a powershell terminal in your IDE along with a bash terminal.
-    2. In the powershell terminal, navigate to your database schema file. Then use the command imply run the command `psql -U postgres` to enter your postgreSql password
-       and open a PostgreSql session, allowing you to run SQL queries and perform database management tasks.
-    3. Switch to your bash terminal and navigate to the folder path level that your package.json file is in. Once there, run the command `node seeds/index.js` to seed the tables with data.
-    4. Finally, run the command `node server.js` in your bash terminal and the server will run and listen to port 3001..
+1. Open a powershell terminal in your IDE along with a bash terminal.
+2. In the powershell terminal, navigate to your database schema file. Then use the command `psql -U postgres` to enter your postgreSql password
+   and open a PostgreSql session, allowing you to run SQL queries and perform database management tasks.
+3. Switch to your bash terminal and navigate to the folder path level that your package.json file is in. Once there, run the command `node seeds/index.js` to seed the tables with data.
+4. Finally, run the command `node server.js` in your bash terminal and the server will run and listen to port 3001..
 
 ---
 ## <ins>Contributing</ins>
