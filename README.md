@@ -17,7 +17,7 @@
 
 ---
 ## <ins>Installation</ins>
-In order to create this README generator, I had to download the following:
+In order to create this server-side e-commerce app, I had to download the following:
 - Node.js. This is the runtime environment I used in conjunciton with my IDE to code this project. You can download the current version of node.js [here](https://nodejs.org/en)
   ![node screenshot](https://github.com/user-attachments/assets/77cd0435-19f8-4444-8ed1-0f27b24bfc03)
 - Once node.js is installed, you have to install the RDBMS (Relational Data Base Management System) PostgreSql.
